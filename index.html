@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Оценки студентов</h1>
+    <button class="button" id="button">Посчитать результаты</button>
+    <h2 class="subtitle">Все оценки студентов</h2>
+    <table class="table" id="tablesource"></table>
+    <div class="results">
+      <h2 class="subtitle start">Средний балл студентов:</h2>
+      <h2 class="subtitle end" id="average"></h2>
+    </div>
+    <div class="results">
+      <h2 class="subtitle start">Максимальный балл студентов:</h2>
+      <h2 class="subtitle end" id="max"></h2>
+    </div>
+    <div class="results">
+      <h2 class="subtitle start">Минимальный балл студентов:</h2>
+      <h2 class="subtitle end" id="min"></h2>
+    </div>
+    <div class="results">
+      <h2 class="subtitle start">
+        Количество студентов, получивших положительную оценку:
+      </h2>
+      <h2 class="subtitle end" id="passed"></h2>
+    </div>
+    <div class="results">
+      <h2 class="subtitle start">
+        Количество студентов, получивших отрицательную оценку:
+      </h2>
+      <h2 class="subtitle end" id="failed"></h2>
+    </div>
+    <h2 class="subtitle">Все оценки студентов в буквенном выражении</h2>
+    <table class="table" id="tableresult"></table>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
